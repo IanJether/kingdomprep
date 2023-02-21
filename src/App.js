@@ -88,10 +88,11 @@ function App() {
 
       {/* the fourth block  */}
 
-      <div className="four flex flex-col items-center bg-stone-100 pb-10">
-        <div className="fourzero h-24">
-            {/* the picture */}
-        </div>
+      <div className="fourzero h-72 bg-gray-200">
+
+      </div>
+
+      <div className="four flex flex-col items-center bg-stone-100 pb-9">
         <div className="fourone h-32 m-6 bg-gray-300 w-32 rounded-full">
 
         </div>
