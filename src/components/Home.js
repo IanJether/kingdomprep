@@ -1,4 +1,5 @@
-
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Home =()=>{
 
@@ -10,12 +11,12 @@ const Home =()=>{
   
         <nav className="">
           <div className="nav flex justify-between px-5 bg-gray-100 py-6">
-            <div className="logo font-mono text-3xl font-light">
+            <div className="logo text-3xl font-bold">
                 <h1>KING</h1>
             </div>
             <div className="menu">
               <div className="menuicon">
-                  <p>Icon</p>
+                  <span className="text-3xl"><FontAwesomeIcon icon={faBars}/></span>
               </div>
               <div className="menulist hidden">
                 <ul>
@@ -32,7 +33,7 @@ const Home =()=>{
   
           {/* the first block  */}
   
-        <div className="one px-5 h-500 bg-gray-300 h-64 flex justify-start items-center">
+        <div className="one px-5 bg-slate-900 h-500 h-64 flex justify-start items-center">
           <div className="oneone text-slate-500 text-2xl">
             <h1 className="font-light mb-7">KINGDOM PRIMARY</h1>
             <h1 className="font-semibold">WE ARE MAKING EVERY CHILDS WORLD BETTER</h1>
@@ -43,7 +44,7 @@ const Home =()=>{
   
         <div className="two px-5 flex flex-col justify-center items-center bg-stone-100 pb-8">
           <div className="twoone h-32 m-6 bg-gray-300 w-32 rounded-full">
-  
+              
           </div>
           <div className="twotwo text-center">
             <h3 className="mb-4 font-semibold text-2xl ">ENROLL A CHILD</h3>
@@ -90,8 +91,8 @@ const Home =()=>{
   
         {/* the fourth block  */}
   
-        <div className="fourzero h-72 bg-gray-200">
-  
+        <div className="fourzero h-68 bg-gray-200">
+           <img src={require('../images/books-head.jpg')} alt="jether" />
         </div>
   
         <div className="four flex flex-col items-center bg-stone-100 pb-9">
@@ -155,8 +156,8 @@ const Home =()=>{
                 <p className="text-1xl mb-8 text-gray-800">We'll do all the work, you get all the credit</p>
             </div>
             <div className="seventwo mb-8">
-                <div className="stone h-48 bg-gray-100 mb-4">
-                    <img src="" alt="" />
+                <div className="stone h-48 bg-gray-100 mb-4 overflow-hidden">
+                <img className="overflow-hidden" src={require('../images/smiling-in-class.jpg')} alt="jether" />
                 </div>
                 <div className="sttwo mb-8">
                     <p className="mb-2">23/ February - 4 hours - Kahawa</p>

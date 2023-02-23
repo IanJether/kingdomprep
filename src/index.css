@@ -4,5 +4,9 @@
 
 
 .bb{
-  @apply border-4 border-neutral-600 p-3 w-36 rounded-full uppercase font-semibold;
+  @apply border-4 border-slate-600 p-3 w-36 rounded-full uppercase font-semibold;
+}
+
+.one{
+  background-image: url(images/child-thinking.jpg);
 }
